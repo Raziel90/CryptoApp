@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>File Encryption Service</title>
+</head>
+<body>
+<h1>File encrypt</h1>
+
+<form action="/FileCrypt" enctype="multipart/form-data" method="POST">
+    <table style="width: 100%">
+        <tr>
+            <td>
+                Password: <input maxlength="16" name="pass" size="40" type="password" value=""><br>
+                <input checked name="act" style="text-align: left" type="radio" value="encrypt"> Encrypt<br>
+                <input name="act" style="text-align: left" type="radio" value="decrypt"> Decrypt <br>
+            </td>
+            <td style="text-align: left">
+                Choose the files to upload:<br>
+                <input id="files" multiple="" name="files" type="file"><br>
+                <input id="fileUploadButton" type="submit" value="Upload >>"><br>
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
