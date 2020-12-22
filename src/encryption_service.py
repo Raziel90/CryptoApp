@@ -4,7 +4,7 @@ import sys
 
 import tornado.ioloop
 import tornado.web
-from ServiceHandlers.CryptoRequestHandlers import TextRequestHandler, FileRequestHandler
+from .ServiceHandlers.CryptoRequestHandlers import TextRequestHandler, FileRequestHandler
 
 
 def main(argv):
