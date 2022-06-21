@@ -11,7 +11,7 @@ jupyter-core==4.4.0
 jupyterlab==0.35.4
 jupyterlab-server==0.2.0
 notebook==5.7.8
-numpy==1.15.4
+numpy==1.22.0
 ptyprocess==0.6.0
 py==1.8.0
 pybind11==2.2.4
